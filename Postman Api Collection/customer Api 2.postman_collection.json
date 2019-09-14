@@ -1,0 +1,1877 @@
+{
+	"info": {
+		"_postman_id": "f0760e0e-ba2e-4af8-8dd4-e08d7eb97a19",
+		"name": "customer Api 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8081/api/muser/notification/1?1",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"warning": ""
+					},
+					{
+						"key": "user_id",
+						"value": "1",
+						"warning": ""
+					},
+					{
+						"key": "notification_id",
+						"value": "1",
+						"warning": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n\t{\n\"address_type\":\"billing\",\n\"user_id\":1\n}\n"
+				},
+				"url": {
+					"raw": "localhost:8081/api/muser/notification/1?1",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"muser",
+						"notification",
+						"1"
+					],
+					"query": [
+						{
+							"key": "1",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/muser/notification",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"warning": ""
+					},
+					{
+						"key": "user_id",
+						"value": "1",
+						"warning": ""
+					},
+					{
+						"key": "notification_id",
+						"value": "1",
+						"warning": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n\t{\n\"address_type\":\"billing\",\n\"user_id\":1\n}\n"
+				},
+				"url": {
+					"raw": "localhost:8081/api/muser/notification",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"muser",
+						"notification"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/muser/notification",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"warning": ""
+					},
+					{
+						"key": "user_id",
+						"value": "1",
+						"warning": ""
+					},
+					{
+						"key": "notification_id",
+						"value": "1",
+						"warning": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n\t{\n\"address_type\":\"billing\",\n\"user_id\":1\n}\n"
+				},
+				"url": {
+					"raw": "localhost:8081/api/muser/notification",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"muser",
+						"notification"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/muser/notification/1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8081/api/muser/notification/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"muser",
+						"notification",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/muser/getAddress",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n\t{\n\"address_type\":\"billing\",\n\"user_id\":1\n}\n"
+				},
+				"url": {
+					"raw": "localhost:8081/api/muser/getAddress",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"muser",
+						"getAddress"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/muser/deleteAddress",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n\t{\n\"address_type\":\"billing\",\n\"user_id\":1\n}\n"
+				},
+				"url": {
+					"raw": "localhost:8081/api/muser/deleteAddress",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"muser",
+						"deleteAddress"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/muser/getAddress",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n\t{\n\"address_type\":\"billing\",\n\"user_id\":1\n}\n"
+				},
+				"url": {
+					"raw": "localhost:8081/api/muser/getAddress",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"muser",
+						"getAddress"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/muser/getAddress",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n\t{\n\"address_type\":\"billing\",\n\"user_id\":1\n}\n"
+				},
+				"url": {
+					"raw": "localhost:8081/api/muser/getAddress",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"muser",
+						"getAddress"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/muser/addAddress",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n\t{\n\"address_line2\":\"mogambo khush hua\",\n\"city\":\"pune\",\n\"state\":\"maharashtra\",\n\"country\":\"india\",\n\"address_type\":\"billing\",\n\"user_id\":1\n}\n"
+				},
+				"url": {
+					"raw": "localhost:8081/api/muser/addAddress",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"muser",
+						"addAddress"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/muser/addAddress",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n\t{\n\"address_line1\":\"mogambo khush hua\",\n\"city\":\"pune\",\n\"state\":\"maharashtra\",\n\"country\":\"india\",\n\"address_type\":\"delivery\",\n\"user_id\":1\n}\n"
+				},
+				"url": {
+					"raw": "localhost:8081/api/muser/addAddress",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"muser",
+						"addAddress"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/muser/addAddress",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n\t{\n\"address_line1\":\"mogambo khush hua\",\n\"city\":\"pune\",\n\"state\":\"maharashtra\",\n\"country\":\"india\",\n\"address_type\":\"delivery\"\n}\n"
+				},
+				"url": {
+					"raw": "localhost:8081/api/muser/addAddress",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"muser",
+						"addAddress"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/muser/addAddress",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n\t{\n\"address_line1\":\"mogambo khush hua\",\n\"city\":\"pune\",\n\"state\":\"maharashtra\",\n\"country\":\"india\",\n\"address_type\":\"delivery\"\n}\n"
+				},
+				"url": {
+					"raw": "localhost:8081/api/muser/addAddress",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"muser",
+						"addAddress"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/muser/addAddress",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n\t{\n\"address_line1\":\"mogambo khush hua\",\n\"city\":\"pune\",\n\"state\":\"maharashtra\",\n\"country\":\"india\",\n\"address_type\":\"delivery\"\n}\n"
+				},
+				"url": {
+					"raw": "localhost:8081/api/muser/addAddress",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"muser",
+						"addAddress"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\"user_id\":1,\n\"product_id\":1,\n\"subscription\":true\n}\n]"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\"user_id\":1,\n\"product_id\":1,\n\"subscription\":true\n}\n]"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\"user_id\":2,\n\"product_id\":1,\n\"subscription\":true\n}\n]"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\"user_id\":2,\n\"product_id\":1,\n\"subscription\":true\n}\n]"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\n\"user_id\":2,\n\"product_id\":1,\n\"subscription\":true\n}]"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\n\"user_id\":2,\n\"product_id\":1,\n\"subscription\":true\n}]"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"user_id\":2,\n\"product_id\":1,\n\"subscription\":true\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"user_id\":2,\n\"product_id\":1,\n\"subscription\":true\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"user_id\":2,\n\"product_id\":1,\n\"subscription\":true\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"user_id\":2,\n\"product_id\":1,\n\"subscription\":true\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"user_id\":2,\n\"product_id\":1,\n\"subscription\":true\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"user_id\":2,\n\"product_id\":1,\n\"subscription\":true\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"user_id\":2,\n\"product_id\":1,\n\"subscription\":true\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"user_id\":2,\n\"product_id\":1,\n\"subscription\":true\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"user_id\":2,\n\"product_id\":1,\n\"subscription\":true\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart/4",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"user_id\":2,\n\"product_id\":1,\n\"subscription\":true\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart/4",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart/4",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart/4",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart/2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart/2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"user_id\":1,\n\"card_number\":12345678776,\n\"card_holder_name\":\"shub\",\n\"expiry\":\"12-3456\",\n\"cvv_number\":876\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-card",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"user_id\":1,\n\"card_number\":12345678776,\n\"card_holder_name\":\"shub\",\n\"expiry\":\"12-3456\",\n\"cvv_number\":876\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-card",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-card"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-card",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"user_id\":1,\n\"card_number\":12345678776,\n\"card_holder_name\":\"shub\",\n\"expiry\":\"12-3456\",\n\"cvv_number\":876\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-card",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-card"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-card",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"user_id\":1,\n\"card_number\":12345678776,\n\"card_holder_name\":\"shub\",\n\"expiry\":\"12-3456\",\n\"cvv_number\":876\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-card",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-card"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-card",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"user_id\":1,\n\"card_number\":12345678776,\n\"card_holder_name\":\"shub\",\n\"expiry\":\"12-3456\",\n\"cvv_number\":876\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-card",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-card"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-card",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"user_id\":1,\n\"card_number\":12345678776,\n\"card_holder_name\":\"shub\",\n\"expiry\":\"12-3456\",\n\"cvv_number\":876\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-card",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-card"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quantity\":6,\n\"subscription\":true,\n\"frequency\":10\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quantity\":6,\n\"subscription\":true,\n\"frequency\":10\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quantity\":6,\n\"subscription\":true,\n\"frequency\":10\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quantity\":6,\n\"subscription\":true,\n\"frequency\":10\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quantity\":5,\n\"subscription\":true,\n\"frequency\":10\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quantity\":5,\n\"subscription\":true,\n\"frequency\":10\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quantity\":5,\n\"subscription\":true,\n\"frequency\":10\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quantity\":5,\n\"subscription\":true,\n\"frequency\":10\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quantity\":5,\n\"subscription\":true,\n\"frequency\":10\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quantity\":5,\n\"subscription\":true,\n\"frequency\":10\n},\n{\n\"product_id\":2,\n\"user_id\":2,\n\"prod_quantity\":6,\n\"subscription\":false\n}\n]"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quantity\":5,\n\"subscription\":true,\n\"frequency\":10\n},\n{\n\"product_id\":2,\n\"user_id\":2,\n\"prod_quantity\":6,\n\"subscription\":false\n}\n]"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quantity\":5,\n\"subscription\":true,\n\"frequency\":10\n},\n{\n\"product_id\":2,\n\"user_id\":2,\n\"prod_quantity\":6,\n\"subscription\":false\n}\n]"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quantity\":5,\n\"subscription\":true,\n\"frequency\":10\n},\n{\n\"product_id\":2,\n\"user_id\":2,\n\"prod_quantity\":6,\n\"subscription\":false\n}\n]"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quantity\":5,\n\"subscription\":true,\n\"frequency\":10\n},\n{\n\"product_id\":2,\n\"user_id\":2,\n\"prod_quantity\":6,\n\"subscription\":false\n}\n]"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quantity\":5,\n\"subscription\":true,\n\"frequency\":10\n},\n{\n\"product_id\":2,\n\"user_id\":2,\n\"prod_quantity\":6,\n\"subscription\":false\n}\n]"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quntity\":5,\n\"subscription\":true,\n\"frequency\":10\n},\n{\n\"product_id\":2,\n\"user_id\":2,\n\"prod_quntity\":6,\n\"subscription\":false\n}\n]"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quntity\":5,\n\"subscription\":true,\n\"frequency\":10\n},\n{\n\"product_id\":2,\n\"user_id\":2,\n\"prod_quntity\":6,\n\"subscription\":false\n}\n]"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quntity\":5,\n\"subscription\":true,\n\"frequency\":10\n},\n{\n\"product_id\":2,\n\"user_id\":2,\n\"prod_quntity\":6,\n\"subscription\":false\n}\n]"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quntity\":5,\n\"subscription\":true,\n\"frequency\":10\n},\n{\n\"product_id\":2,\n\"user_id\":2,\n\"prod_quntity\":6,\n\"subscription\":false\n}\n]"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quntity\":5,\n\"subscription\":true,\n\"frequency\":10\n},\n{\n\"product_id\":2,\n\"user_id\":2,\n\"prod_quntity\":6,\n\"subscription\":false\n}\n]"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quntity\":5,\n\"subscription\":true,\n\"frequency\":10\n},\n{\n\"product_id\":2,\n\"user_id\":2,\n\"prod_quntity\":6,\n\"subscription\":false\n}\n]"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/api/mproduct/add-to-cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\n\"product_id\":1,\n\"user_id\":2,\n\"prod_quntity\":5,\n\"subscription\":true,\n\"frequency\":10\n},\n{\n\"product_id\":2,\n\"user_id\":2,\n\"prod_quntity\":6,\n\"subscription\":false\n}\n]"
+				},
+				"url": {
+					"raw": "localhost:8081/api/mproduct/add-to-cart",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"mproduct",
+						"add-to-cart"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
